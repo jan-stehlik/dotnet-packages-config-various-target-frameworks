@@ -1,9 +1,12 @@
-using System;
-					
-public class Program
+﻿using System;
+
+namespace dotnet_packages_config_various_target_frameworks
 {
-	public static void Main(string[] args)
-	{
-		Console.WriteLine("Hello World");
-	}
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+        }
+    }
 }
