@@ -26,6 +26,12 @@ Run for target framework net5.0
 dotnet run --framework net5.0
 ```
 
+Run for target framework net472
+
+```bash
+dotnet run --framework net472
+```
+
 ### Restore dependencies
 
 This will create `project.assets.json` in obj folder with a depenedency tree.
