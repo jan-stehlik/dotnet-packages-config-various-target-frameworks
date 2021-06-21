@@ -14,8 +14,16 @@ dotnet build
 
 ### Run the app
 
+Run for target framework net451
+
 ```bash
-dotnet run
+dotnet run --framework net451
+```
+
+Run for target framework net5.0
+
+```bash
+dotnet run --framework net5.0
 ```
 
 ### Restore dependencies

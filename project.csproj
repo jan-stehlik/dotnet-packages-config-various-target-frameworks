@@ -2,8 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>dotnet_packages_config_various_target_frameworks</RootNamespace>
+    <TargetFrameworks>net5.0;net451</TargetFrameworks>
   </PropertyGroup>
 
 </Project>
