@@ -10,7 +10,7 @@ Prerequisites:
 ### Install dependencies
 
 ```bash
-nuget install
+nuget install -OutputDirectory packages
 ```
 
 ### Build
