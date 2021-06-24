@@ -5,6 +5,13 @@ This is an example .NET app that has dependencies managed by `packages.config` a
 Prerequisites:
 
 - [.NET](https://dotnet.microsoft.com/download) installed
+- [Nuget CLI](https://docs.microsoft.com/en-us/nuget/install-nuget-client-tools#nugetexe-cli) installed
+
+### Install dependencies
+
+```bash
+nuget install
+```
 
 ### Build
 
@@ -30,12 +37,4 @@ Run for target framework net472
 
 ```bash
 dotnet run --framework net472
-```
-
-### Restore dependencies
-
-This will create `project.assets.json` in obj folder with a depenedency tree.
-
-```bash
-dotnet restore
 ```
